@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+li {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.p-1 {
+  font-size: 2rem;
+  text-align: center;
+}
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 1.5rem;
+  background: #204051;
+  color: #fff;
+}
+header ul li {
+  margin-right: 2rem;
+  display: inline-block;
+}
+header ul li a {
+  padding: 1rem;
+}
+header a:hover {
+  background-color: steelblue;
+  border-radius: 5px;
+}
+.bandymas {
+  height: 100vh;
+  background: url("/reklamos/img/sport.jpg") no-repeat center center/cover;
+}
+p {
+  color: #fff;
+  padding: 0 1rem;
+  padding-bottom: 4rem;
+}
+.button {
+  padding: 1rem;
+  color: #fff;
+  background-color: #204051;
+  border: none;
+  text-align: center;
+  display: block;
+  margin: auto;
+  outline: none;
+}
+.button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.logo {
+  width: 180px;
+  height: 50px;
+  display: block;
+  background: url("/reklamos/img/logo.png") no-repeat center center/cover;
+}
+.top-right {
+  position: fixed;
+  text-align: end;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  right: 0;
+  left: 100;
+  display: none;
+}
+.top-left {
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  position: fixed;
+  left: 0;
+}
+.bottom-left {
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: none;
+}
+.bottom-right {
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  text-align: end;
+  display: none;
+}
+.bandymas-1 {
+  height: 100vh;
+  background: url("/reklamos/img/sport-1.jpg") no-repeat center center/cover;
+}
